@@ -1,0 +1,35 @@
+Sur les pages des régions, les contacts s'affichent automatiquement.
+Normalement il s'agit d'une organisation avec une ou deux personnes responsables.
+
+Exemple pour Montréal:
+
+Coalition montréalaise de la Marche mondiale des femmes » Organisation contact régional "Contact régional Montréal"
+Carole Benjamin » personne responsable (avec adresse courriel et numéro de téléphone)
+514-381-3288 poste 2203
+Lise Cloutier » personne responsable (sans adresse courriel et sans numéro de téléphone)
+
+Comment désigner une organisation ou personne comme contact régional:
+--------------------------------------------------------------------
+
+1) Aller sur la fiche de l'organisme. (S'il n'y a pas encore de fiche pour l'organisme, il faut en créer une.)
+2) Ajouter le tague "Contact régional [nom de la région]" à la fiche de l'organisme (par ex. "Contact régional Montréal")
+
+Comment ajouter une personne responsable:
+-----------------------------------------
+
+1) Vérifier qu'une fiche existe pour la personne et que la personne a le niveau de soutien "fort" ou "faible".
+2) Créer une relation entre l'organisation et la personne, avec le titre "contact_region"
+
+
+Comment enlever une organisation comme contact régional:
+--------------------------------------------------------
+
+1) Aller sur la fiche de l'organisme.
+2) Enlever le tague "Contact régional [nom de la région]"
+
+
+Comment enlever une personne responsable:
+-----------------------------------------
+
+1) Aller sur la fiche de la personne.
+2) Enlever la relation avec le titre "contact_region" avec l'organisation contact régional
